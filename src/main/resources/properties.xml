@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<properties>
+    <property name="TargetHost" value="qa-u1604.vlab.lohika.com:8080"/>
+    <property name="TargetAdmin" value="qa-u1604.vlab.lohika.com:8080/wp-admin"/>
+    <property name="Protocol" value="http"/>
+    <property name="SeleniumServer" value="localhost"/>
+    <property name="Browser" value="ff"/>
+    <property name="TimeToWait" value="20"/>
+    <property name="TimeToTimeout" value="30"/>
+    <property name="TimeToSleep" value="10"/>
+</properties>
