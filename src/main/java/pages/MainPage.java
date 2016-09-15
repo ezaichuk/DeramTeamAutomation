@@ -7,15 +7,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class MainPage extends WebDriverExtention{
 
-    /*@FindBy(id = "userloginValue")
+    @FindBy(xpath = "..//div[@id = 'meta-2']/ul/li")
     public WebElement usernameTextbox;
-
-    @FindBy(id = "userpassword")
-    public WebElement passwordTextbox;
-
-    @FindBy(xpath = ".//input[@class = 'btn-primary loginButton']")
-    public WebElement signInButton;*/
-
 
     public MainPage(WebDriver driver) {
         super(driver);
@@ -23,5 +16,9 @@ public class MainPage extends WebDriverExtention{
 
     public void Open() {
         driver.navigate().to(appSettings.baseUrl);
+    }
+
+    public void Login(){
+
     }
 }
